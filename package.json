@@ -1,0 +1,33 @@
+{
+  "name": "wythe",
+  "version": "1.0.0",
+  "description": "wythe website",
+  "main": "index.html",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "test": "mocha",
+    "scss": "node-sass --watch scss -o css",
+    "bs": "./node_modules/.bin/browser-sync start --config 'bs-config.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasroubal/getwythe.git"
+  },
+  "keywords": [
+    "wythe"
+  ],
+  "author": "Nicholas Roubal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholasroubal/getwythe/issues"
+  },
+  "homepage": "https://github.com/nicholasroubal/getwythe#readme"
+}
