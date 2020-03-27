@@ -20,5 +20,7 @@ $body-color: rgb(56, 55, 56);
 // Custom.scss
 // Option A: Include all of Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 @import "css/stars.scss";
+$fa-font-path: "../assets/webfonts";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
